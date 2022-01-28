@@ -1,28 +1,29 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>Nandini Kalana Kapa</title>
     <!-- metadata -->
     <meta name="description" content="Nandini Kapa's Personal Website">
     <meta name="author" content="Nandini Kapa">
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
     <style>
       h1 {border-style: double; text-align: center}
     </style>
-    <link rel="icon" type="png" href="./images/logo.png"/>
+    <link rel="icon" type="image/png" href="./images/logo.png"/>
   </head>
   <body>
     <!-- navigation bar -->
     <nav class="navigation">
       <a href="#projects">Projects</a>
       <a href="#experiences">Experiences</a>
-      <a href="#home">Nandini Kapa</a>
+      <a href="#home">Home</a>
       <a href="#interests">Interests</a>
       <a href="#contact">Contact</a>
     </nav>
     <main>
       <section id="home">
         <picture>
-          <img width="25%" id="profile" src="./images/profile.jpg"></img>
+          <img width="200" alt="Nandini Kapa Profile Picture" id="profile" src="./images/profile.jpg">
         </picture>
         <h1>
           Hello, I'm <b>Nandini</b>
@@ -40,22 +41,22 @@
         <ol>
           <li>
             <article>
-              <header><strong>CoTrack</strong></header>
-              <img width="25%" src="./images/Co-track.jpg"/>
+              <h4><strong>CoTrack</strong></h4>
+              <img width="200" alt="Co-Track Application" src="./images/Co-track.jpg"/>
               <p>A COVID-19 tracking application that allows everyone to report COVID-19 results and their own whereabouts, allowing others to search and become aware of locations that the infected have  previously visited.</p>
               <aside>
-                <iframe width="25%" src="https://www.youtube.com/embed/8xSyZDCgCWQ"></iframe>
+                <iframe width="200" src="https://www.youtube.com/embed/8xSyZDCgCWQ"></iframe>
               </aside>
               <footer>This project was completed in March 2021.</footer>
             </article>
           </li>
           <li>
             <article>
-              <header><strong>Tip Calculator</strong></header>
-              <img width="25%" src="images/TipMe.png"/>
+              <h4><strong>Tip Calculator</strong></h4>
+              <img width="200" alt="Tipc Calculator" src="images/TipMe.png"/>
               <p>This iOS application calculates an adjusting tip amount for any bill amount and determines the total for each person splitting it.</p>
               <aside>
-                <video width="25%" controls>
+                <video width="200" controls>
                   <source src="./videos/tipcalculator.mp4" type="video/mp4">
                 </video>
               </aside>
@@ -64,11 +65,11 @@
           </li>
           <li>
             <article>
-              <header><strong>Almond Plant Management Application</strong></header>
-              <img width="25%" src="images/almounds.png"/>
+              <h4><strong>Almond Plant Management Application</strong></h4>
+              <img width="200" alt="Almounds Mobile Application" src="images/almounds.png"/>
               <p>This application provides a clean and easy to use interface for the workers of the Central California Almond Growers Association to manage the dynamic roles and functionality of an almond processing plant.</p>
               <aside>
-                <iframe width="25%" src="https://www.youtube.com/embed/66Q7XpXZKKM"></iframe>
+                <iframe width="200" src="https://www.youtube.com/embed/66Q7XpXZKKM"></iframe>
               </aside>
               <footer>This project was completed in June 2020.</footer>
             </article>
@@ -116,19 +117,19 @@
         <h1>Interests</h1>
         <details>
           <summary>Food</summary>
-          <img width="25%" src="./images/food/mediteranean.jpg">
-          <img width="25%" src="./images/food/paradisepie.jpg">
-          <img width="25%" src="./images/food/ramen.jpg">
+          <img width="200" alt="Mediteranean Food" src="./images/food/mediteranean.jpg">
+          <img width="200" alt="Dessert" src="./images/food/paradisepie.jpg">
+          <img width="200" alt="Ramen" src="./images/food/ramen.jpg">
         </details>
         <details>
           <summary>Travel</summary>
-          <img width="25%" src="./images/travel/utc.jpg">
-          <img width="25%" src="./images/travel/snow.jpg">
+          <img width="200" alt="Raindow at UTC" src="./images/travel/utc.jpg">
+          <img width="200" alt="Snow at Mount Baldy, CA" src="./images/travel/snow.jpg">
         </details>
         <details>
           <summary>Design</summary>
           <figure>
-            <img width="25%" src="./images/doedt.jpeg">
+            <img width="200" alt="By Don Norman" src="./images/doedt.jpeg">
             <figcaption>A great book with lots of spectacular insight!</figcaption>
           </figure>
         </details>
@@ -188,8 +189,8 @@
             <option value="Navya">
           </datalist>
           <p>The <code>code</code> tag is a great way to highlight important project code.</p>
-          <svg width="100" height="100">
-            <circle cx="100" cy="100" r="90"/>
+          <svg width="200" height="200">
+            <circle cx="200" cy="200" r="90"/>
           </svg>
         </details>
       </section>
@@ -199,12 +200,12 @@
         <h3>Please feel free to <a href="mailto:webmaster@example.com">email</a> me or schedule a time on my calendar to talk.</h3>
         <!--TODO: add links-->
         <!-- Calendly Scheduler-->
-        <iframe width="25%" src="https://calendly.com/nandinikapa/coffee-chat"></iframe>
+        <iframe width="200" src="https://calendly.com/nandinikapa/coffee-chat"></iframe>
         <h2>Want to hear from others about me?</h2>
         <table>
           <caption>Contact References</caption>
           <colgroup>
-            <col span="1">
+            <col span="4">
           </colgroup>
           <tr>
             <th>Name</th>
@@ -224,15 +225,15 @@
             <td>Hands-On Technology Education</td>
             <td>ksewell@hands-on-mobile.com</td>
           </tr>
+          <template id="notforcontact">
+            <tr>
+              <td>Gary Gillespie</td>
+              <td>Lecturer</td>
+              <td>UCSD CSE</td>
+              <td>ggillespie@ucsd.edu</td>
+            </tr>
+          </template>
         </table>
-        <template id="notforcontact">
-          <tr>
-            <td>Gary Gillespie</td>
-            <td>Lecturer</td>
-            <td>UCSD CSE</td>
-            <td>ggillespie@ucsd.edu</td>
-          </tr>
-        </template>
       </section>
     </main>
   </body>
